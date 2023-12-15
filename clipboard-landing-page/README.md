@@ -4,13 +4,15 @@
 
 Install dependencies
 
-```npm install
+```bash
+npm install
 
 ```
 
 Run Tailwind CLI
 
-```npm run watch
+```bash
+npm run watch
 
 ```
 
