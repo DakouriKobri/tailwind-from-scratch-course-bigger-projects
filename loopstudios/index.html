@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
     rel="stylesheet">
+  <script src="./js/script.js" defer></script>
   <link rel="stylesheet" href="./css/style.css">
   <title>Loopstudios Website</title>
 </head>
@@ -50,7 +51,7 @@
 
         <!-- MENU HAMBURGER BUTTON -->
         <div class="md:hidden">
-          <button id="menu-btn" class="open z-40 block hamburger md:hidden 
+          <button id="menu-btn" class="z-40 block hamburger md:hidden 
           focus:outline-none" type="button" aria-label="Hamburger close/open button">
             <span class="hamburger-top"></span>
             <span class="hamburger-middle"></span>
@@ -59,7 +60,15 @@
         </div>
       </nav>
 
-      <!-- TODO: MOBILE MENU -->
+      <div id="menu" class="absolute hidden top-0 bottom-0 left-0 flex-col self-end 
+           w-full min-h-screen py-1 pt-40 pl-12 gap-3 text-lg text-white
+          uppercase bg-black">
+        <a class="hover:text-pink-500" href="#">About</a>
+        <a class="hover:text-pink-500" href="#">Careers</a>
+        <a class="hover:text-pink-500" href="#">Events</a>
+        <a class="hover:text-pink-500" href="#">Products</a>
+        <a class="hover:text-pink-500" href="#">Support</a>
+      </div>
 
       <div class="max-w-lg text-white my-32 p-4 font-sans text-4xl uppercase
       border-2 md:p-10 md:text-6xl">Impressive experiences that deliver</div>
