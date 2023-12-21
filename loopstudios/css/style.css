@@ -568,6 +568,26 @@ video {
   }
 }
 
+.relative {
+  position: relative;
+}
+
+.top-48 {
+  top: 12rem;
+}
+
+.top-10 {
+  top: 2.5rem;
+}
+
+.top-52 {
+  top: 13rem;
+}
+
+.left-10 {
+  left: 2.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -587,6 +607,14 @@ video {
   margin-bottom: 8rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -599,12 +627,32 @@ video {
   height: 2.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-6xl {
   max-width: 72rem;
 }
 
 .max-w-lg {
   max-width: 32rem;
+}
+
+.max-w-md {
+  max-width: 28rem;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -619,6 +667,16 @@ video {
   border-width: 2px;
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-green-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -631,6 +689,14 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.pr-0 {
+  padding-right: 0px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .font-alata {
@@ -659,6 +725,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
 #hero {
   background-image: url('../images/desktop/image-hero.jpg');
   background-repeat: no-repeat;
@@ -682,8 +753,28 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:bottom-0 {
+    bottom: 0px;
+  }
+
+  .md\:right-0 {
+    right: 0px;
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
   .md\:flex {
     display: flex;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
   }
 
   .md\:gap-8 {
@@ -699,8 +790,26 @@ video {
     padding-right: 0px;
   }
 
+  .md\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .md\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 }
