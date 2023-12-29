@@ -631,6 +631,10 @@ video {
   margin-bottom: 11rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -719,8 +723,16 @@ video {
   gap: 2.5rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-4 {
@@ -818,6 +830,11 @@ video {
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .py-2 {
@@ -934,15 +951,29 @@ video {
   color: rgb(234 179 8 / var(--tw-placeholder-opacity));
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 #cta {
   background-image: url('../images/bg-boost-desktop.svg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.ficon:hover {
+  filter: invert(70%) sepia(61%) saturate(464%) hue-rotate(130deg)
+    brightness(85%) contrast(85%);
+}
+
 .hover\:bg-cyanLight:hover {
   --tw-bg-opacity: 1;
   background-color: hsl(180 66% 69% / var(--tw-bg-opacity));
+}
+
+.hover\:text-cyan:hover {
+  --tw-text-opacity: 1;
+  color: hsl(180 66% 49% / var(--tw-text-opacity));
 }
 
 .hover\:text-veryDarkViolet:hover {
@@ -994,6 +1025,18 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-20 {
+    gap: 5rem;
   }
 
   .md\:gap-3 {
