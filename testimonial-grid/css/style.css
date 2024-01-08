@@ -802,8 +802,32 @@ video {
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-start-3 {
+    grid-column-start: 3;
+  }
+
+  .md\:col-start-4 {
+    grid-column-start: 4;
+  }
+
+  .md\:col-end-4 {
+    grid-column-end: 4;
+  }
+
   .md\:row-span-2 {
     grid-row: span 2 / span 2;
+  }
+
+  .md\:row-start-1 {
+    grid-row-start: 1;
+  }
+
+  .md\:row-end-2 {
+    grid-row-end: 2;
+  }
+
+  .md\:row-end-3 {
+    grid-row-end: 3;
   }
 
   .md\:block {
