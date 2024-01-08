@@ -1,3 +1,6 @@
+// NPM Packages
+import lineClamp from '@tailwindcss/line-clamp';
+
 /** @type {import('tailwindcss').Config} */
 
 export const content = ['./*.html'];
@@ -17,4 +20,4 @@ export const theme = {
   },
 };
 
-export const plugins = [];
+export const plugins = [lineClamp];
