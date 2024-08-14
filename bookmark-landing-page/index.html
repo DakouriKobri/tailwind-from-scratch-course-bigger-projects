@@ -15,14 +15,15 @@
 
 <body class="overflow-x-hidden">
   <nav class="container relative mx-auto p-6">
-    <!-- Flex Container for Nav Items -->
+
+    <!-- FLEX CONTAINER FOR FLEX ITEMS -->
     <div class="flex items-center justify-between space-x-20 my-6">
-      <!-- Logo -->
+      <!-- LOGO -->
       <div class="z-30">
         <img id="logo" src="./images/logo-bookmark.svg" alt="Logo">
       </div>
 
-      <!-- Menu Items -->
+      <!-- MENU ITEMS -->
       <div class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
         <a href="#features" class="tracking-widest hover:text-softRed">Features</a>
         <a href="#download" class="tracking-widest hover:text-softRed">Download</a>
@@ -32,6 +33,42 @@
       </div>
     </div>
   </nav>
+
+  <!-- HERO SECTION -->
+  <section id="hero">
+
+    <!-- CONTAINER FOR IMAGE & CONTENT -->
+    <div class="container flex flex-col-reverse mx-auto p6 lg:flex-row lg:mb-0">
+
+      <!-- CONTENT -->
+      <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+        <h1 class="text-3xl font-bold text-center lg:text-6xl lg:text-left">A Simple Bookmark Manager</h1>
+        <p class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0">
+          A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites
+          load instantly. Try it for free.
+        </p>
+
+        <!-- BUTTONS CONTAINER -->
+        <div class="flex items-center justify-center w-full space-x-4 lg:justify-start">
+          <a class="p-4 text-sm font-bold text-white bg-softBlue rounded shadow-md border-2 border-softBlue 
+            md:text-base hover:bg-white hover:text-softBlue" href="#">
+            Get It On Chrome
+          </a>
+          <a class="p-4 text-sm font-bold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 
+            md:text-base hover:bg-white hover:text-gray-600" href="#">
+            Get It On Firefox
+          </a>
+        </div>
+      </div>
+
+      <!-- IMAGE -->
+      <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+        <div class="bg-hero"></div>
+        <img class="relative z-10 overflow-x-visible lg:top-24 xl:top-0" src="./images/illustration-hero.svg"
+          alt="Abstract image of a tablet device showing a list on a website">
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
