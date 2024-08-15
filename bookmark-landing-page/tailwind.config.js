@@ -17,6 +17,9 @@ export const theme = {
     fontFamily: {
       sans: ['Rubik', 'sans-serif'],
     },
+    backgroundImage: () => ({
+      dots: "url('/bookmark-landing-page/images/bg-dots.svg')",
+    }),
   },
 };
 export const plugins = [];
